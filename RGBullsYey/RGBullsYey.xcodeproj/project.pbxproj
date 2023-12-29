@@ -11,6 +11,7 @@
 		3BB98A9E2B3E5ECB00A308C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB98A9D2B3E5ECB00A308C5 /* ContentView.swift */; };
 		3BB98AA02B3E5ECD00A308C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB98A9F2B3E5ECD00A308C5 /* Assets.xcassets */; };
 		3BB98AA32B3E5ECD00A308C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB98AA22B3E5ECD00A308C5 /* Preview Assets.xcassets */; };
+		3BB98AAA2B3E7AD400A308C5 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB98AA92B3E7AD400A308C5 /* TimeCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3BB98A9D2B3E5ECB00A308C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BB98A9F2B3E5ECD00A308C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BB98AA22B3E5ECD00A308C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BB98AA92B3E7AD400A308C5 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				3BB98A9D2B3E5ECB00A308C5 /* ContentView.swift */,
 				3BB98A9F2B3E5ECD00A308C5 /* Assets.xcassets */,
 				3BB98AA12B3E5ECD00A308C5 /* Preview Content */,
+				3BB98AA92B3E7AD400A308C5 /* TimeCounter.swift */,
 			);
 			path = RGBullsYey;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB98AAA2B3E7AD400A308C5 /* TimeCounter.swift in Sources */,
 				3BB98A9E2B3E5ECB00A308C5 /* ContentView.swift in Sources */,
 				3BB98A9C2B3E5ECB00A308C5 /* RGBullsYeyApp.swift in Sources */,
 			);

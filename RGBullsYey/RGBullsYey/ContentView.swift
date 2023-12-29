@@ -17,31 +17,51 @@ struct ContentView: View {
     @State var gGuess: Double
     @State var bGuess: Double
     
-    @State var showAlert = false
+    @State private var showAlert = false
+    
+    @ObservedObject var timer = TimeCounter()
     
     var body: some View {
-        VStack {
-            HStack {
-                VStack {
-                    Color(red: rTarget, green: gTarget, blue: bTarget)
-                    Text("Match this color")
+        NavigationView {
+            VStack {
+                HStack {
+                    VStack {
+                        Color(red: rTarget, green: gTarget, blue: bTarget)
+                        self.showAlert ?
+                        Text("R:\(Int(rTarget*255)) G:\(Int(gTarget*255)) B:\(Int(bTarget*255))") :
+                        Text("Match this color")
+                    }
+                    VStack {
+                        ZStack {
+                            Color(red: rGuess, green: gGuess, blue: bGuess)
+                            Text(String(timer.counter))
+                                .padding(.all, 5)
+                                .background(.white)
+                                .mask(Circle())
+                                .foregroundStyle(.black)
+                        }
+                        Text("R:\(Int(rGuess*255)) G:\(Int(gGuess*255)) B:\(Int(bGuess*255))")
+                    }
                 }
+                Button(action: {
+                    self.showAlert = true
+                    self.timer.killTimer()
+                }) {
+                    Text("Hit me!")
+                }.alert(isPresented: $showAlert) {
+                    Alert(title: Text("Your Score:"), message: Text(String(computeScore())))
+                }.padding()
+                
                 VStack {
-                    Color(red: rGuess, green: gGuess, blue: bGuess)
-                    Text("R: \(Int(rGuess*255)) G: \(Int(gGuess*255)) B: \(Int(bGuess*255))")
-                }
+                    ColorSlider(value: $rGuess, textColor: .red)
+                    ColorSlider(value: $gGuess, textColor: .green)
+                    ColorSlider(value: $bGuess, textColor: .blue)
+                }.padding(.horizontal)
+                
+                
             }
-            Button(action: { self.showAlert = true}) {
-                Text("Hit me!")
-            }.alert(isPresented: $showAlert) {
-                Alert(title: Text("Your Score"), message: Text(String(computeScore())))
-            }.padding()
-            
-            ColorSlider(value: $rGuess, textColor: .red)
-            ColorSlider(value: $gGuess, textColor: .green)
-            ColorSlider(value: $bGuess, textColor: .blue)
-            
         }
+//        .environment(\.colorScheme, .dark)
     }
     
     func computeScore() -> Int {
@@ -56,6 +76,7 @@ struct ContentView: View {
 #Preview {
     ContentView(rGuess: 0.5, gGuess: 0.5, bGuess: 0.5)
         .previewLayout(.fixed(width: 500, height: 320))
+//        .environment(\.colorScheme, .dark)
 }
 
 struct ColorSlider: View {
@@ -67,7 +88,9 @@ struct ColorSlider: View {
         HStack {
             Text("0").foregroundStyle(.red)
             Slider(value: $value)
+                .background(textColor)
+                .cornerRadius(10)
             Text("255").foregroundStyle(.red)
-        }.padding(.horizontal)
+        }
     }
 }
