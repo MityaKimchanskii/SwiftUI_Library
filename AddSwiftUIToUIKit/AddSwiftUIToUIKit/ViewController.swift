@@ -36,10 +36,9 @@ class ViewController: UIViewController {
     }
     
     @objc private func buttonTapped() {
-        print("Hit Me Tapped!")
+//        print("Hit Me Tapped!")
         let vc = UIHostingController(rootView: ContentView(rGuess: 0.5, gGuess: 0.5, bGuess: 0.5))
         present(vc, animated: true)
     }
-
 }
 

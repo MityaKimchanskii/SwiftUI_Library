@@ -16,10 +16,7 @@ struct ContentView: View {
     @State var rGuess: Double
     @State var gGuess: Double
     @State var bGuess: Double
-    
     @State private var showAlert = false
-    
-//    @ObservedObject var timer = TimeCounter()
     
     var body: some View {
         NavigationView {
@@ -34,7 +31,6 @@ struct ContentView: View {
                     VStack {
                         ZStack {
                             Color(red: rGuess, green: gGuess, blue: bGuess)
-//                            Text(String(timer.counter))
                             Text("1")
                                 .padding(.all, 5)
                                 .background(.white)
@@ -46,7 +42,6 @@ struct ContentView: View {
                 }
                 Button(action: {
                     self.showAlert = true
-//                    self.timer.killTimer()
                 }) {
                     Text("Hit me!")
                 }.alert(isPresented: $showAlert) {
@@ -62,7 +57,6 @@ struct ContentView: View {
                 
             }
         }
-//        .environment(\.colorScheme, .dark)
     }
     
     func computeScore() -> Int {
@@ -77,7 +71,6 @@ struct ContentView: View {
 #Preview {
     ContentView(rGuess: 0.5, gGuess: 0.5, bGuess: 0.5)
         .previewLayout(.fixed(width: 500, height: 320))
-//        .environment(\.colorScheme, .dark)
 }
 
 struct ColorSlider: View {
