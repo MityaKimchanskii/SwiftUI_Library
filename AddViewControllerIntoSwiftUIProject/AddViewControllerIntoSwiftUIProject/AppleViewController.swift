@@ -10,7 +10,7 @@ import SwiftUI
 import UIKit
 
 
-class ViewController: UIViewController {
+class AppleViewController: UIViewController {
     
     let imageView: UIImageView = {
         let imageView = UIImageView()
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
 struct ViewContollerRepresentation: UIViewControllerRepresentable {
     
     func makeUIViewController(context: Context) -> some UIViewController {
-        let vc = ViewController()
+        let vc = AppleViewController()
         return vc
     }
     

@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BBB79942B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB79932B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProjectApp.swift */; };
-		3BBB79962B4A35D7000AFD2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB79952B4A35D7000AFD2A /* ContentView.swift */; };
-		3BBB79982B4A35D8000AFD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB79972B4A35D8000AFD2A /* Assets.xcassets */; };
-		3BBB799B2B4A35D8000AFD2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB799A2B4A35D8000AFD2A /* Preview Assets.xcassets */; };
-		3BBB79A22B4A3ACD000AFD2A /* AppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB79A12B4A3ACD000AFD2A /* AppleViewController.swift */; };
+		3BBB79B02B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB79AF2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUIApp.swift */; };
+		3BBB79B22B4A543C000AFD2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB79B12B4A543C000AFD2A /* ContentView.swift */; };
+		3BBB79B42B4A543D000AFD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB79B32B4A543D000AFD2A /* Assets.xcassets */; };
+		3BBB79B72B4A543D000AFD2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB79B62B4A543D000AFD2A /* Preview Assets.xcassets */; };
+		3BBB79BE2B4A56F9000AFD2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB79BD2B4A56F9000AFD2A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BBB79902B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddViewControllerIntoSwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BBB79932B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewControllerIntoSwiftUIProjectApp.swift; sourceTree = "<group>"; };
-		3BBB79952B4A35D7000AFD2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3BBB79972B4A35D8000AFD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3BBB799A2B4A35D8000AFD2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3BBB79A12B4A3ACD000AFD2A /* AppleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleViewController.swift; sourceTree = "<group>"; };
+		3BBB79AC2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HostingUIKitViewWithDataInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBB79AF2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingUIKitViewWithDataInSwiftUIApp.swift; sourceTree = "<group>"; };
+		3BBB79B12B4A543C000AFD2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BBB79B32B4A543D000AFD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BBB79B62B4A543D000AFD2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BBB79BD2B4A56F9000AFD2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3BBB798D2B4A35D7000AFD2A /* Frameworks */ = {
+		3BBB79A92B4A543C000AFD2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +34,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BBB79872B4A35D7000AFD2A = {
+		3BBB79A32B4A543C000AFD2A = {
 			isa = PBXGroup;
 			children = (
-				3BBB79922B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProject */,
-				3BBB79912B4A35D7000AFD2A /* Products */,
+				3BBB79BD2B4A56F9000AFD2A /* ViewController.swift */,
+				3BBB79AE2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUI */,
+				3BBB79AD2B4A543C000AFD2A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3BBB79912B4A35D7000AFD2A /* Products */ = {
+		3BBB79AD2B4A543C000AFD2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BBB79902B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProject.app */,
+				3BBB79AC2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BBB79922B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProject */ = {
+		3BBB79AE2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				3BBB79932B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProjectApp.swift */,
-				3BBB79952B4A35D7000AFD2A /* ContentView.swift */,
-				3BBB79A12B4A3ACD000AFD2A /* AppleViewController.swift */,
-				3BBB79972B4A35D8000AFD2A /* Assets.xcassets */,
-				3BBB79992B4A35D8000AFD2A /* Preview Content */,
+				3BBB79AF2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUIApp.swift */,
+				3BBB79B12B4A543C000AFD2A /* ContentView.swift */,
+				3BBB79B32B4A543D000AFD2A /* Assets.xcassets */,
+				3BBB79B52B4A543D000AFD2A /* Preview Content */,
 			);
-			path = AddViewControllerIntoSwiftUIProject;
+			path = HostingUIKitViewWithDataInSwiftUI;
 			sourceTree = "<group>";
 		};
-		3BBB79992B4A35D8000AFD2A /* Preview Content */ = {
+		3BBB79B52B4A543D000AFD2A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3BBB799A2B4A35D8000AFD2A /* Preview Assets.xcassets */,
+				3BBB79B62B4A543D000AFD2A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +73,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BBB798F2B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProject */ = {
+		3BBB79AB2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BBB799E2B4A35D8000AFD2A /* Build configuration list for PBXNativeTarget "AddViewControllerIntoSwiftUIProject" */;
+			buildConfigurationList = 3BBB79BA2B4A543D000AFD2A /* Build configuration list for PBXNativeTarget "HostingUIKitViewWithDataInSwiftUI" */;
 			buildPhases = (
-				3BBB798C2B4A35D7000AFD2A /* Sources */,
-				3BBB798D2B4A35D7000AFD2A /* Frameworks */,
-				3BBB798E2B4A35D7000AFD2A /* Resources */,
+				3BBB79A82B4A543C000AFD2A /* Sources */,
+				3BBB79A92B4A543C000AFD2A /* Frameworks */,
+				3BBB79AA2B4A543C000AFD2A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AddViewControllerIntoSwiftUIProject;
-			productName = AddViewControllerIntoSwiftUIProject;
-			productReference = 3BBB79902B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProject.app */;
+			name = HostingUIKitViewWithDataInSwiftUI;
+			productName = HostingUIKitViewWithDataInSwiftUI;
+			productReference = 3BBB79AC2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3BBB79882B4A35D7000AFD2A /* Project object */ = {
+		3BBB79A42B4A543C000AFD2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					3BBB798F2B4A35D7000AFD2A = {
+					3BBB79AB2B4A543C000AFD2A = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = 3BBB798B2B4A35D7000AFD2A /* Build configuration list for PBXProject "AddViewControllerIntoSwiftUIProject" */;
+			buildConfigurationList = 3BBB79A72B4A543C000AFD2A /* Build configuration list for PBXProject "HostingUIKitViewWithDataInSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 3BBB79872B4A35D7000AFD2A;
-			productRefGroup = 3BBB79912B4A35D7000AFD2A /* Products */;
+			mainGroup = 3BBB79A32B4A543C000AFD2A;
+			productRefGroup = 3BBB79AD2B4A543C000AFD2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BBB798F2B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProject */,
+				3BBB79AB2B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3BBB798E2B4A35D7000AFD2A /* Resources */ = {
+		3BBB79AA2B4A543C000AFD2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BBB799B2B4A35D8000AFD2A /* Preview Assets.xcassets in Resources */,
-				3BBB79982B4A35D8000AFD2A /* Assets.xcassets in Resources */,
+				3BBB79B72B4A543D000AFD2A /* Preview Assets.xcassets in Resources */,
+				3BBB79B42B4A543D000AFD2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BBB798C2B4A35D7000AFD2A /* Sources */ = {
+		3BBB79A82B4A543C000AFD2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BBB79A22B4A3ACD000AFD2A /* AppleViewController.swift in Sources */,
-				3BBB79962B4A35D7000AFD2A /* ContentView.swift in Sources */,
-				3BBB79942B4A35D7000AFD2A /* AddViewControllerIntoSwiftUIProjectApp.swift in Sources */,
+				3BBB79BE2B4A56F9000AFD2A /* ViewController.swift in Sources */,
+				3BBB79B22B4A543C000AFD2A /* ContentView.swift in Sources */,
+				3BBB79B02B4A543C000AFD2A /* HostingUIKitViewWithDataInSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3BBB799C2B4A35D8000AFD2A /* Debug */ = {
+		3BBB79B82B4A543D000AFD2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		3BBB799D2B4A35D8000AFD2A /* Release */ = {
+		3BBB79B92B4A543D000AFD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,14 +268,14 @@
 			};
 			name = Release;
 		};
-		3BBB799F2B4A35D8000AFD2A /* Debug */ = {
+		3BBB79BB2B4A543D000AFD2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AddViewControllerIntoSwiftUIProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HostingUIKitViewWithDataInSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -289,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dmitriikim.AddViewControllerIntoSwiftUIProject;
+				PRODUCT_BUNDLE_IDENTIFIER = dmitriikim.HostingUIKitViewWithDataInSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,14 +297,14 @@
 			};
 			name = Debug;
 		};
-		3BBB79A02B4A35D8000AFD2A /* Release */ = {
+		3BBB79BC2B4A543D000AFD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AddViewControllerIntoSwiftUIProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HostingUIKitViewWithDataInSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -318,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dmitriikim.AddViewControllerIntoSwiftUIProject;
+				PRODUCT_BUNDLE_IDENTIFIER = dmitriikim.HostingUIKitViewWithDataInSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,25 +329,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BBB798B2B4A35D7000AFD2A /* Build configuration list for PBXProject "AddViewControllerIntoSwiftUIProject" */ = {
+		3BBB79A72B4A543C000AFD2A /* Build configuration list for PBXProject "HostingUIKitViewWithDataInSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BBB799C2B4A35D8000AFD2A /* Debug */,
-				3BBB799D2B4A35D8000AFD2A /* Release */,
+				3BBB79B82B4A543D000AFD2A /* Debug */,
+				3BBB79B92B4A543D000AFD2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BBB799E2B4A35D8000AFD2A /* Build configuration list for PBXNativeTarget "AddViewControllerIntoSwiftUIProject" */ = {
+		3BBB79BA2B4A543D000AFD2A /* Build configuration list for PBXNativeTarget "HostingUIKitViewWithDataInSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BBB799F2B4A35D8000AFD2A /* Debug */,
-				3BBB79A02B4A35D8000AFD2A /* Release */,
+				3BBB79BB2B4A543D000AFD2A /* Debug */,
+				3BBB79BC2B4A543D000AFD2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3BBB79882B4A35D7000AFD2A /* Project object */;
+	rootObject = 3BBB79A42B4A543C000AFD2A /* Project object */;
 }

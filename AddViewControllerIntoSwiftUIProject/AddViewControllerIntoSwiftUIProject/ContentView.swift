@@ -21,6 +21,7 @@ struct ContentView: View {
             
             VStack {
                 ViewContollerRepresentation()
+                    .opacity(0.5)
             }
             .padding()
         }
