@@ -16,7 +16,7 @@ struct LoginView: View {
         NavigationView {
             VStack {
                 // Header
-                HeaderView()
+                HeaderView(title: "To Do List", subtitle: "Hello ToDo List", angle: 16, background: .green)
                 
                 Spacer()
                 
