@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import FirebaseAuth
+import FirebaseFirestore
 
 
 class NewItemViewViewModel: ObservableObject {
@@ -17,7 +19,22 @@ class NewItemViewViewModel: ObservableObject {
     init() {}
     
     public func save() {
+        guard canSave else { return }
+        // get current user id
+        guard let uid = Auth.auth().currentUser?.uid else { return }
         
+        // create model
+        let newID = UUID().uuidString
+        let newItem = ToDoListItem(id: newID, title: title, dueDate: dueDate.timeIntervalSince1970, createDate: Date().timeIntervalSince1970, isDone: false)
+        
+        // save model
+        let db = Firestore.firestore()
+        
+        db.collection("users")
+            .document(uid)
+            .collection("todos")
+            .document("123")
+            .setData(newItem.asDictionary())
     }
     
     var canSave: Bool {

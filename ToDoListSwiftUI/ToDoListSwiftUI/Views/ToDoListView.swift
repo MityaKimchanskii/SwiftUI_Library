@@ -15,6 +15,7 @@ struct ToDoListView: View {
     
     init(userId: String) {
         self.userId = userId
+        
     }
     
     var body: some View {
