@@ -11,7 +11,24 @@ import SwiftUI
 struct CryptoCurrencyAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
