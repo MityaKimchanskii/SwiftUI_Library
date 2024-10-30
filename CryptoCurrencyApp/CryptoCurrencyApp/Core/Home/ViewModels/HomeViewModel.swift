@@ -12,6 +12,9 @@ import SwiftUI
 
 class HomeViewModel: ObservableObject {
     
+    @Published var coins = [Coin]()
+    @Published var topCoins = [Coin]()
+    
     init() {
         fetchCoinData()
     }
@@ -34,7 +37,22 @@ class HomeViewModel: ObservableObject {
             
             guard let data else { return }
             
+            do {
+                let coins = try JSONDecoder().decode([Coin].self, from: data)
+                DispatchQueue.main.async {
+                    self.coins = coins
+                    self.configureTopMovingCoins()
+                }
+            } catch {
+                print(error.localizedDescription)
+            }
+            
             
         }.resume()
+    }
+    
+    func configureTopMovingCoins() {
+        let topMovers = coins.sorted(by: { $0.priceChangePercentage24H > $1.priceChangePercentage24H })
+        self.topCoins = Array(topMovers.prefix(5))
     }
 }
